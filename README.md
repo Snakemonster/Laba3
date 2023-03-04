@@ -4,19 +4,22 @@ You need to have install swig on your computer. If it windows you should add swi
 
 ## Build
 
-To build libs you need to write command 
+To build libs you need to write command (for windows) 
 
 ```
 python setup.py build_ext --inplace
 ```
-on each operating system.
+for linux use:
+```
+python3 setup.py build_ext --inplace
+```
 
 ## Running
-Then run:
+Then run (for windows):
 ```
 python main.py
 ```
-on windows, and for linux is:
+and for linux is:
 ```
 python3 main.py
 ```
