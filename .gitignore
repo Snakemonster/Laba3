@@ -1,0 +1,7 @@
+*.pyd
+*.so
+/build/
+.vscode/
+__pycache__/
+example_wrap.cpp
+swigwin-4.1.1/
